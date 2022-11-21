@@ -1,5 +1,14 @@
 /*
-    Student Name:
+    Student Name: Stephen Davis
     File Name: script.js
-    Date: 
+    Date: November 21, 2022
 */
+
+$(document).ready(function(){
+  $(".btn1").click(function(){
+    $("p").hide();
+  });
+  $(".btn2").click(function(){
+    $("p").show();
+  });
+});
